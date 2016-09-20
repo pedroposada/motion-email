@@ -42,8 +42,8 @@ $ npm install
 
 
 ## Configure
-Make a copy of ```local.json.dist``` into ```local.json```
-Replace the value accordingly
+Make a copy of ```config/local.json.dist``` into ```config/local.json```
+Replace values inside file accordingly
 
 
 ## Run

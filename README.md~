@@ -26,11 +26,6 @@ $ sudo apt-get install motion
 $ sudo apt-get install node
 ````
 
-## pm2
-````
-$ sudo npm i -g pm2
-````
-
 ## motion-email
 ````
 $ mkdir motion-email
@@ -66,7 +61,5 @@ $ kill PID // where PID is the number that appears on the left
 
 ## to stop node
 ````
-$ pm2 stop "motion-email"
-````
-
+$ pm2 
 

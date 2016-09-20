@@ -1,0 +1,18 @@
+{
+  "author": "Pedro P",
+  "name": "motion-email",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/pedroposada/motion-email"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "node-config": "0.0.2",
+    "nodemailer": "^2.5.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

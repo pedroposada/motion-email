@@ -1,0 +1,12 @@
+{
+	"filepath": "/tmp/motion_email_shot.jpg",
+	"emailHost": "smtp.gmail.com",
+	"emailSecure": true,
+	"emailUser": "",
+	"emailPass": "",
+	"emailFrom": "'name' <add@ress>",
+	"emailTo": "add@ress",
+	"emailSubject": "webcam motionshot",
+	"emailText": "See attachment"
+}
+

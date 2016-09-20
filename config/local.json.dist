@@ -1,9 +1,9 @@
 {
-	"filepath": "/tmp/motion_email_shot.jpg",
-	"emailHost": "smtp.gmail.com",
+	"filepath": "/tmp/motion_email_shot.jpg",	// absolute path to file
+	"emailHost": "smtp.gmail.com", 			// server address
 	"emailSecure": true,
-	"emailUser": "",
-	"emailPass": "",
+	"emailUser": "", 				// emails address
+	"emailPass": "", 				// app password
 	"emailFrom": "'name' <add@ress>",
 	"emailTo": "add@ress",
 	"emailSubject": "webcam motionshot",

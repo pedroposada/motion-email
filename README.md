@@ -36,7 +36,8 @@ $ sudo npm i -g pm2
 ````
 $ mkdir motion-email
 $ cd motion-email
-$ npm install https://github.com/pedroposada/motion-email
+$ git clone https://github.com/pedroposada/motion-email .
+$ npm install
 ````
 
 

@@ -70,4 +70,12 @@ $ kill PID // where PID is the number that appears on the left
 $ pm2 stop "motion-email"
 ````
 
+### troubleshooting notes
+if node is not working properly try this
+````
+$ sudo apt-get remove --purge node
+$ sudo apt-get clean
+````
+and re-install again
+
 

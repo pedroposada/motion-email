@@ -1,37 +1,37 @@
 # motion-email
 Detect motion -> send email
 
-# Introduction
+## Introduction
 Detect motion using a webcam and a linux machine.
 Send image snapshots via email.
 Can be used as a security camera or surveilance system for your home or office.
 Easy to set up, just need an old computer and an internet connection.
 
-# Requirements
+## Requirements
 - Any Linux machine with a built-in webcam
 - An email account
 - Node version 4.x
 - Motion version 3.2.12
 
 
-# Installation on Ubuntu
+## Installation on Ubuntu
 
-## Motion 
+### Motion 
 ````
 $ sudo apt-get install motion
 ````
 
-## Node
+### Node
 ````
 $ sudo apt-get install node
 ````
 
-## pm2
+### pm2
 ````
 $ sudo npm i -g pm2
 ````
 
-## motion-email
+### motion-email
 ````
 $ mkdir motion-email
 $ cd motion-email
@@ -39,12 +39,12 @@ $ npm install https://github.com/pedroposada/motion-email
 ````
 
 
-# Configure
+## Configure
 Make a copy of ```local.json.dist``` into ```local.json```
 Replace the value accordingly
 
 
-# Run
+## Run
 Inside your folder
 Start 'motion' as daemon using the config file provided here.
 Motion will automatically start your webcam and take a picture everytime changes in light and color are detected.
@@ -56,15 +56,15 @@ Start the node app as a daemon using pm2
 $ pm2 start index.js -n "motion-email"
 ````
 
-### Done!
+## Done!
 
-## to stop motion
+### to stop motion
 ````
 $ top | grep motion
 $ kill PID // where PID is the number that appears on the left
 ````
 
-## to stop node
+### to stop node
 ````
 $ pm2 stop "motion-email"
 ````

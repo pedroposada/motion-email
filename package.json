@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "dependencies": {
-    "node-config": "0.0.2",
+    "config": "^1.21.0",
     "nodemailer": "^2.5.0"
   },
   "devDependencies": {},

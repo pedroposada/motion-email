@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 var nodemailer = require('nodemailer');
-var config = require('node-config');
+var config = require('config');
 var filepath = config.filepath;
 
 var smtpConfig = {

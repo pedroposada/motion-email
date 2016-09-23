@@ -5,6 +5,9 @@
   "repository": {
     "url": "https://github.com/pedroposada/motion-email"
   },
+  "scripts": {
+    "start": "motion -c ./motion.conf && pm2 start ./index.js -n 'motionemail'"
+  },
   "main": "index.js",
   "dependencies": {
     "config": "^1.21.0",

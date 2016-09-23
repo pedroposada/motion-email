@@ -50,12 +50,9 @@ Replace the value accordingly
 Inside your folder
 Start 'motion' as daemon using the config file provided here.
 Motion will automatically start your webcam and take a picture everytime changes in light and color are detected.
-````
-$ motion -c ./motion.conf
-````
 Start the node app as a daemon using pm2
 ````
-$ pm2 start index.js -n "motion-email"
+$ npm start
 ````
 
 ## Done!

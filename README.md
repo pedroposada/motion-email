@@ -10,8 +10,8 @@ Easy to set up, just need an old computer and an internet connection.
 ## Requirements
 - Any Linux machine with a built-in webcam
 - An email account
-- Node version =< 4.x
-- Motion version =< 3.2.12
+- Node version >= 4.x
+- Motion version >= 3.2.12
 
 
 ## Installation on Ubuntu

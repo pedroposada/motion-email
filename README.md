@@ -74,6 +74,6 @@ if node is not working properly try this
 $ sudo apt-get remove --purge node
 $ sudo apt-get clean
 ````
-and re-install again
+and re-install
 
 

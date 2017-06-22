@@ -59,9 +59,9 @@ $ top | grep motion
 $ kill PID // where PID is the number that appears on the left
 ````
 
-### to stop node
+### to stop motion-email
 ````
-$ pm2 stop "motion-email"
+$ npm run stop
 ````
 
 ### troubleshooting notes

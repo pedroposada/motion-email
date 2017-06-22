@@ -1,5 +1,5 @@
 # motion-email
-Detect motion -> send email
+Detect motion -> take picture -> send email
 
 ## Introduction
 Detect motion using a webcam and a linux machine.

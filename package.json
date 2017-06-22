@@ -6,7 +6,8 @@
     "url": "https://github.com/pedroposada/motion-email"
   },
   "scripts": {
-    "start": "motion -c ./motion.conf && pm2 start ./index.js -n 'motion-email'"
+    "start": "motion -c ./motion.conf && ./node_modules/.bin/pm2 start ./index.js -n 'motion-email'",
+    "stop": "./node_modules/.bin/pm2 stop 'motion-email'"
   },
   "main": "index.js",
   "dependencies": {
